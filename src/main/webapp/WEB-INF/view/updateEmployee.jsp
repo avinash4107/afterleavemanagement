@@ -286,8 +286,9 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Employee Number * </label> <input
-											class="input-name" id="employeenumber" name="employeenumber"
+										<label class="lable-name">Employee Number * </label> 
+										<input
+									class="input-name" id="employeenumber" name="employeenumber"
 											value="${command.employeenumber}" required="" />
 									</div>
 									<form:errors path="employeenumber" cssClass="errormsg" />
@@ -327,8 +328,8 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Date of Birth * </label> <input
-											class="input-name" id="bday" name="bday"
+									<label class="lable-name">Date of Birth * </label> 
+										<input type="date" class="input-name" id="bday" name="bday"
 											value="${command.bday}" required="" />
 									</div>
 									<form:errors path="bday" cssClass="errormsg" />
@@ -356,7 +357,7 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Email Address * </label> <input
+									<label class="lable-name">Email Address * </label> <input
 											class="input-name" id="email" name="email"
 											value="${command.email}" required="" />
 									</div>
@@ -372,8 +373,8 @@
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Password * </label> <input
-											class="input-name" id="password" name="password"
+										<label class="lable-name">Password * </label> 
+										<input type="password" class="input-name" id="password" name="password"
 											value="${command.password}" required="" />
 									</div>
 									<form:errors path="password" cssClass="errormsg" />
@@ -408,26 +409,29 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Country * </label> <input
-											class="input-name" id="country" name="country"
-											value="${command.country}" size="1" />
+										<label class="lable-name">Country * </label> 
+										<select class="input-name" name="state" id="countySel" size="1">
+                                           <option value="${command.country}" selected="selected">Select Country</option>
+                                          </select>
 										<form:errors path="country" cssClass="errormsg" />
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">State * </label> <input
-											class="input-name" id="state" name="state"
-											value="${command.state}" size="1" />
+										<label class="lable-name">State * </label> 
+										<select class="input-name" name="countrya" id="stateSel" size="1">
+                                         <option value="${command.state}" selected="selected">Please select Country first</option>
+                                        </select>
 									</div>
 									<form:errors path="state" cssClass="errormsg" />
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">District * </label> <input
-											class="input-name" id="district" name="district"
-											value="${command.district}" size="1" />
+										<label class="lable-name">District * </label> 
+										<select class="input-name" name="district" id="districtSel" size="1">
+                                        <option value="${command.district}" selected="selected">Please select State first</option>
+                                       </select>
 									</div>
 									<form:errors path="district" cssClass="errormsg" />
 								</div>
@@ -444,8 +448,8 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Asignment Start Date * </label> <input
-											class="input-name" id="startdate" name="startdate"
+										<label class="lable-name">Asignment Start Date * </label> 
+										<input type="date" class="input-name" id="startdate" name="startdate"
 											value="${command.startdate}" />
 									</div>
 									<form:errors path="startdate" cssClass="errormsg" />
@@ -453,15 +457,15 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Asignment End Date * </label> <input
-											class="input-name" name="endDate" id="endDate"
+										<label class="lable-name">Asignment End Date * </label> 
+										<input type="date" class="input-name" name="endDate" id="endDate"
 											value="${command.endDate}">
 									</div>
 									<form:errors path="endDate" cssClass="errormsg" />
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Jon (Designation) * </label> <input
+										<label class="lable-name">Job (Designation) * </label> <input
 											class="input-name" id="job" name="job" value="${command.job}"
 											required="" />
 									</div>
@@ -470,8 +474,8 @@
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Date of Joining * </label> <input
-											class="input-name" name="joindate" id="joindate"
+										<label class="lable-name">Date of Joining * </label> 
+										<input type="date" class="input-name" name="joindate" id="joindate"
 											value="${command.joindate}">
 									</div>
 									<form:errors path="joindate" cssClass="errormsg" />
@@ -545,7 +549,7 @@
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Date of Previous Employee
-											Leaving * </label> <input class="input-name"
+											Leaving * </label> <input type="date"  class="input-name"
 											id="previousempleavingdate" name="previousempleavingdate"
 											value="${command.previousempleavingdate}">
 									</div>
@@ -553,7 +557,7 @@
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Start Date* </label> <input
+										<label class="lable-name">Start Date* </label> <input type="date"
 											class="input-name" name="previousempstartdate"
 											id="previousempstartdate"
 											value="${command.previousempstartdate}">
@@ -562,7 +566,7 @@
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">End Date* </label> <input
+										<label class="lable-name">End Date* </label> <input type="date"
 											class="input-name" name="previousempenddate"
 											id="previousempenddate" value="${command.previousempenddate}">
 									</div>
