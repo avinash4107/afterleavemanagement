@@ -240,221 +240,221 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Employee Number : </label>
-											<label class="result">${command.employeenumber}</label>
+										<label class="result">${command.employeenumber}</label>
 											 
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Employee Name * :
-											${command.name}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Employee Name :
+											</label>
+										<label class="result"> ${command.name}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Gender * : ${command.gender}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Gender : </label>
+										<label class="result"> ${command.gender}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Date of Birth * :
-											${command.bday}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Date of Birth :
+											</label>
+										<label class="result"> ${command.bday}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">PAN Number * :
-											${command.pan}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">PAN Number :
+											</label>
+										<label class="result"> ${command.pan}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Marital Status * :
-											${command.maritalstatus}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Email Address * :
-											${command.email}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Phone Number * :
-											${command.phone}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Password * :
-											${command.password}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Flat/Door/Block Num * :
-											${command.doornum}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Village * : ${command.vlg}</label>
-									        <label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Mandal * : ${command.mandal}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">Marital Status :
+											</label>
+										<label class="result"> ${command.maritalstatus}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Country * :
-											${command.country}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Email Address :
+											</label>
+										<label class="result">${command.email}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Phone Number :
+											</label>
+										<label class="result">${command.phone}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Password :
+											</label>
+										<label class="result"> ${command.password}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Flat/Door/Block Num :
+											</label>
+										<label class="result">${command.doornum}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Village : </label>
+									        <label class="result"> ${command.vlg}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Mandal : </label>
+									        <label class="result">${command.mandal}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">State * : ${command.state}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">Country :
+											</label>
+										<label class="result">${command.country}</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div>
+										<label class="lable-name">State : </label>
+									        <label class="result">  ${command.state}</label>
 	      								</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">District * :
-											${command.district}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">District :
+											</label>
+										<label class="result"> ${command.district}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Pincode * : ${command.pin}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">Pincode : </label>
+									        <label class="result">${command.pin}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Asignment Start Date * :
-											${command.startdate}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Asignment End Date * :
-											${command.endDate}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Jon (Designation) * :
-											${command.job}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Asignment Start Date :
+											</label>
+										<label class="result">${command.startdate}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Date of Joining * :
-											${command.joindate}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Asignment End Date :
+											</label>
+										<label class="result"> ${command.endDate}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Years of Serice * :
-											${command.service}</label>
-										<label class="result"> SDRA</label>
-									</div>
-								</div>
-								<div class="form-group">
-									<div>
-										<label class="lable-name">Manager * :
-											${command.manager}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Jon (Designation) :
+											</label>
+										<label class="result"> ${command.job}</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Bank Name * :
-											${command.bankname}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Date of Joining :
+											</label>
+										<label class="result"> ${command.joindate}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Account Number * :
-											${command.accountnumber}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Years of Serice :
+											</label>
+										<label class="result"> ${command.service}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">IFSC Code * :
-											${command.ifsc}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">Manager :
+											</label>
+										<label class="result">${command.manager}</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Bank Name :
+											</label>
+										<label class="result"> ${command.bankname}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">UAN * : ${command.uan}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">Account Number :
+											</label>
+										<label class="result">${command.accountnumber}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Adhar Number * :
-											${command.adhar}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">IFSC Code :
+											</label>
+										<label class="result"> ${command.ifsc}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Previous Employer * :
-											${command.previousemp}</label>
-										<label class="result"> SDRA</label>
+										<label class="lable-name">UAN : </label>
+									        <label class="result"> ${command.uan}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Adhar Number :
+											</label>
+										<label class="result"> ${command.adhar}</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div>
+										<label class="lable-name">Previous Employer :
+											</label>
+										<label class="result">${command.previousemp}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Date of Previous Employee
-											Leaving * : ${command.previousempleavingdate}</label>
-									       <label class="result"> SDRA</label>
+											Leaving : </label>
+									       <label class="result"> ${command.previousempleavingdate}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Start Date* :
-											${command.previousempstartdate}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">Start Date :
+											</label>
+									        <label class="result">${command.previousempstartdate}</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
-										<label class="lable-name">End Date* :
-											${command.previousempenddate}</label>
-									        <label class="result"> SDRA</label>
+										<label class="lable-name">End Date :
+											</label>
+									        <label class="result">${command.previousempenddate}</label>
 									</div>
 								</div>
 
