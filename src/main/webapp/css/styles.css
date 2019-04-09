@@ -353,6 +353,15 @@ font-size: 13px;
     color: #73879c;
     
 }
+.result{
+    height: 25px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    font-size: smaller;
+    font-stretch: normal;
+    font-weight: 500;
+}
 .input-name {
     width: 50%;
     background-color: #fff;
