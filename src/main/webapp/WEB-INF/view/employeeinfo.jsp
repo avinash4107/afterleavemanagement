@@ -303,6 +303,9 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 										<label class="result"> ${command.password}</label>
 									</div>
 								</div>
+								<div class="address">
+                                <div class="sidehead">Addresss</div>
+                            </div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Flat/Door/Block Num :
@@ -350,6 +353,9 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									        <label class="result">${command.pin}</label>
 									</div>
 								</div>
+								<div class="address">
+                                <div class="sidehead">Assignment Information</div>
+                            </div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Asignment Start Date :
@@ -394,7 +400,9 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 										<label class="result">${command.manager}</label>
 									</div>
 								</div>
-
+                                     <div class="address">
+                                           <div class="sidehead">Bank Information:</div>
+                                      </div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Bank Name :
@@ -416,6 +424,9 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 										<label class="result"> ${command.ifsc}</label>
 									</div>
 								</div>
+								<div class="address">
+                                         <div class="sidehead">Provident Fund Information:</div> 
+                                      </div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">UAN : </label>
