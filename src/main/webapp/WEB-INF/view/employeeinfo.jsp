@@ -239,8 +239,9 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 
 								<div class="form-group">
 									<div>
-										<label class="lable-name">Employee Number * :
-											${command.employeenumber} </label>
+										<label class="lable-name">Employee Number : </label>
+											<label class="result">${command.employeenumber}</label>
+											 
 									</div>
 								</div>
 
@@ -248,12 +249,14 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Employee Name * :
 											${command.name}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Gender * : ${command.gender}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -261,18 +264,21 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Date of Birth * :
 											${command.bday}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">PAN Number * :
 											${command.pan}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Marital Status * :
 											${command.maritalstatus}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -280,34 +286,40 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Email Address * :
 											${command.email}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Phone Number * :
 											${command.phone}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Password * :
 											${command.password}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Flat/Door/Block Num * :
 											${command.doornum}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Village * : ${command.vlg}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Mandal * : ${command.mandal}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -315,29 +327,34 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Country * :
 											${command.country}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<div>
 										<label class="lable-name">State * : ${command.state}</label>
-									</div>
+									        <label class="result"> SDRA</label>
+	      								</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">District * :
 											${command.district}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Pincode * : ${command.pin}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Asignment Start Date * :
 											${command.startdate}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -345,12 +362,14 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Asignment End Date * :
 											${command.endDate}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Jon (Designation) * :
 											${command.job}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -358,18 +377,21 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Date of Joining * :
 											${command.joindate}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Years of Serice * :
 											${command.service}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Manager * :
 											${command.manager}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 
@@ -377,53 +399,62 @@ district.length; i++) { districtSel.options[districtSel.options.length]
 									<div>
 										<label class="lable-name">Bank Name * :
 											${command.bankname}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Account Number * :
 											${command.accountnumber}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">IFSC Code * :
 											${command.ifsc}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">UAN * : ${command.uan}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Adhar Number * :
 											${command.adhar}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Previous Employer * :
 											${command.previousemp}</label>
+										<label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Date of Previous Employee
 											Leaving * : ${command.previousempleavingdate}</label>
+									       <label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">Start Date* :
 											${command.previousempstartdate}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 								<div class="form-group">
 									<div>
 										<label class="lable-name">End Date* :
 											${command.previousempenddate}</label>
+									        <label class="result"> SDRA</label>
 									</div>
 								</div>
 
